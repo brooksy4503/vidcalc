@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://astounding-salmiakki-dd3625.netlify.app/"),
   title: "Video Duration Calculator",
   description: "Calculate the duration of your videos",
   openGraph: {
